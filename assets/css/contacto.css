@@ -1,0 +1,172 @@
+body {
+	background-image: url(../../assets/imagenes/portada1.jpg);
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	background-color: transparent;
+
+}
+
+header{
+	background-color: #FFFFFF;
+}
+
+.caja1{
+	font-family: georgia;
+	font-size: 70px;
+	padding: 20px 0 20px 20px;
+}
+.items{
+	padding: 10px 40px;
+	top:110px;
+}
+
+
+nav{
+	position: absolute;
+	top:20px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+
+}
+
+nav a{
+	text-transform: uppercase;
+	color:#000000;
+	font-family: bradley hand;
+	font-weight:bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #DD9FEB;
+	text-decoration: underline;
+}
+
+.caja2{
+	background-color: #C12283;
+	padding: 0px 0;
+
+}
+
+.titulo-centrado{
+	text-transform: uppercase;
+	color:#FFFFFF;
+	font-family: bookantigua;
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+
+.productos {
+	width: 940px;
+	margin: 0 auto;
+	padding: 50px;
+
+}
+
+
+.productos li{
+	display: inline-block;
+	width: 30%;
+	height: 230px;
+	vertical-align: top;
+	margin: 0 1.5%;
+	padding: 10px;
+	box-sizing: border-box;
+	border-color: #000000;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 15px;
+}
+
+.productos li: hover{
+	border-color: #008080;	
+}
+
+.productos li:active{
+	border-color: #000000;
+}
+
+/*main > p{
+	background-color: green;
+}
+
+label{
+	background: red;
+}*/
+	
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+form{
+	margin: 40px 0;
+}
+
+form label, legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padron{
+	display: block;
+	margin: 0 0 20px ;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+form p{
+	color: #000000;
+}
+
+.enviar{
+	width: 40%;
+	padding: 10px 0;  /*espaciamiento interno*/
+	font-size: 18px;
+	font-weight: bold;
+	color: black;
+	background-color: #D291BC;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.enviar:hover{
+	background: #FFFFFF;
+	transform: scale(1.2)      /*rotate(70deg);Efecto de aumentar boton de enviar*/
+                              /*Rotate= el elemento gira 70 grados*/
+}
+
+table{
+	margin: 40px 40px;
+}
+
+thead{
+	background: #555555;
+	color: #101010;
+	font-weight: bold;
+}
+
+td,th{
+	border: 1px solid #000000; /*solid= toda la línea llena*/
+	background: #FFFFFF;
+	padding: 8px 15px; /*8 sp e inf, 15 der,izq*/
+}
+
+
+

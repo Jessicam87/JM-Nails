@@ -1,0 +1,87 @@
+body{
+	background-color:  #FFFFFF;
+}
+
+.caja1{
+	width: 940px;
+	position: relative;
+	margin: 0 auto;
+}
+
+.logotipo{
+	width: 220px;
+	height: 210px;  
+}
+
+nav{
+	position: absolute;
+	top:110px;
+	right: 0px;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a{
+	text-transform: uppercase;
+	color:#000000;
+	font-family: bradley hand;
+	font-weight:bold;
+	font-size: 18px;
+	text-decoration: none;
+}
+
+nav a:hover{
+	color: #DD9FEB; /*efecto linea con color*/
+	text-decoration: underline;
+}
+
+.caja2{
+	background-color: #C12283;
+	padding: 0px 0;
+}
+
+.titulo-centrado{
+	text-transform: uppercase;
+	color:#FFFFFF;
+	font-family: bookantigua;
+	font-weight:bold;
+	font-size: 30px;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+.contenedor-galeria{
+	text-align: center; /*centrar imagenes*/
+
+
+}
+
+.galeria{
+	width: 360px;
+	height: 270px;
+	/*opacity: 0.3; ejemplo para ver comportamiento*/
+}
+
+
+footer{
+	background-color:#FFFFFF;
+	padding: 10px 10px;
+}
+
+.mision{
+	color:#000000; 
+	padding: 0;
+	
+}
+
+.coopyright{
+	text-align:center;
+	padding: 0;
+	font-size: 15px;
+	margin-bottom: 15px;
+
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Contacto JM Nails</title>
+		<link rel="stylesheet" href="assets/css/reset.css"> <!-- reset: es el archivo que nos resetea todos los estilos que vienen configurados por padrón, por defecto, por default, en el navegador. -->
+		<link rel="stylesheet" href="assets/css/contacto.css">
+		<link rel="icon" href="assets/imagenes/icon1.ico">
+	</head>
+
+	<body>
+		
+		<header>
+			<div class="caja1">
+				<h1> Contacto</h1> <!--poner en todas img/PENDIENTE-->
+				<nav>
+					<ul class="items">
+						<li><a href="index.html">Inicio</a></li>
+						<li><a href="informacion.html">Información</a></li>
+						<li><a href="galeria.html">Galería</a></li>
+						<li><a href="contacto.html">Contacto</a></li>
+					</ul>
+				</nav>	
+			</div>
+		</header>
+
+		<main>
+			<!--<p>Párrafo ejemplo</p> ejemplo para ver comportamientos-->
+
+			<form class="formulario">
+				<label for=nombrecompleto>Nombre completo</label>
+				<input type="text" id="nombrecompleto" class="input-padron" required>
+
+				<label for=correoelectronico>Correo electronico</label>	
+				<input type="email" id="correoelectronico"class="input-padron" placeholder="">
+				
+				<label for=numerotelefonico>Número telefónico</label>
+				<input type="tel" id="numerotelefonico"class="input-padron" required placeholder="">
+
+				<label for="mensaje">Mensaje</label>
+				<textarea cols="70" rows="10" id="mensaje"class="input-padron"></textarea>
+
+				<fieldset>  <!--agrupa items que estan relacionados7 se cambia por el div7datos que hacen referencia a un conjunto de datos-->
+					
+					<legend>¿Cómo le gustaría que lo contactemos?</legend>
+
+					<label for="radio-email"><input type="radio" name="contacto" value="email" id="radio-email">Email</label>
+					
+
+					<label for="radio-telefono"><input type="radio" name="contacto" value="telefono" id="radio-telefono">Teléfono</label>
+					
+
+					<label for="radio-whatsapp"><input type="radio" name="contacto" value="whatsapp" id="radio-whatsapp">WhatsApp</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>¿En cuál horario prefiere ser atendido?</legend>
+					<select>
+						<option>Mañana</option>
+						<option>Tarde</option>
+						<option>Noche</option>
+					</select>
+				</fieldset>
+					
+
+				<label class="checkbox"><input type="checkbox">Le gustaría recibir novedades de JM Nails</label>
+				
+				
+				<input type="submit" value="Enviar formulario" class="enviar">
+			</form>
+
+			<table>   <!--crear tabla-->
+
+				<thead> <!--etiqueta de encabezado de tabla-->
+					<tr>  <!--líneas de tabla-->
+						<th>Día</th> <!-- th celdas de encabezado-->
+						<th>Horario</th>
+					</tr>
+				</thead>
+
+				<tbody>  <!--cuerpo de tabla-->
+					<tr>
+					<td>Lunes</td>  <!--celdas de tabla-->
+					<td>8:00am - 4:00pm</td>
+				</tr>
+				<tr>
+					<td>Miércoles</td>
+					<td>8:00am - 4:00pm</td>
+				</tr>
+				<tr>
+					<td>Viernes</td>
+					<td>8:00am - 4:00pm</td>
+				</tr>
+
+				</tbody>
+			</table>
+		</main>
+		
+	
+	</body>
+</html>
